@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bf13eb99.css",
+    "main.js": "/static/js/main.a30494e6.js",
+    "static/js/787.bb2660d1.chunk.js": "/static/js/787.bb2660d1.chunk.js",
+    "static/media/heroSection.png": "/static/media/heroSection.28a9f6abc9a8dc0548c9.png",
+    "static/media/card1.png": "/static/media/card1.76e4442f3a03d1260253.png",
+    "static/media/event2.png": "/static/media/event2.31d8b6f610bf48ffdc15.png",
+    "static/media/team3.png": "/static/media/team3.08e20d8d47b64b19ea7d.png",
+    "static/media/card4.png": "/static/media/card4.d8da6bd8b093dad1a56d.png",
+    "static/media/event9.png": "/static/media/event9.a5c48c166199cdf9b0d8.png",
+    "static/media/event4.png": "/static/media/event4.957a5a25161bf0440ae1.png",
+    "static/media/event8.png": "/static/media/event8.f0d146c2cf33a2cb0006.png",
+    "static/media/event6.png": "/static/media/event6.b0cabfe8bf7dc3168f57.png",
+    "static/media/team1.png": "/static/media/team1.c4163b3da4dadd4f7452.png",
+    "static/media/event7.png": "/static/media/event7.ac0b976760bdcd52dff6.png",
+    "static/media/team2.png": "/static/media/team2.30bf022a8d726684a811.png",
+    "static/media/card2.png": "/static/media/card2.a379b8b38397b1aa677c.png",
+    "static/media/card3.png": "/static/media/card3.88e6d067136f89aea889.png",
+    "static/media/event3.png": "/static/media/event3.b54c97e5d0c9e4933bb5.png",
+    "static/media/event1.png": "/static/media/event1.a0e267463f4bff66d3e1.png",
+    "static/media/event5.png": "/static/media/event5.fc029a7c412e7d9c9e55.png",
+    "index.html": "/index.html",
+    "main.bf13eb99.css.map": "/static/css/main.bf13eb99.css.map",
+    "main.a30494e6.js.map": "/static/js/main.a30494e6.js.map",
+    "787.bb2660d1.chunk.js.map": "/static/js/787.bb2660d1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf13eb99.css",
+    "static/js/main.a30494e6.js"
+  ]
+}

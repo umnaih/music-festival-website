@@ -1,0 +1,105 @@
+.tickets-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ticket-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 0 25%;
+  transition: transform 0.3s ease;
+}
+.ticket-container:hover {
+  transform: scale(1.1);
+}
+.widget {
+  filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3));
+}
+
+.widget.ticket--flex-column {
+  width: 255px;
+}
+
+.widget.ticket--flex-column .top--flex-column,
+.widget.ticket--flex-column .bottom--flex-row-jsb {
+  > div {
+    padding: 0 10px;
+  }
+}
+
+.widget.ticket--flex-column img {
+  padding: 18px 0;
+}
+
+.widget.ticket--flex-column .top--flex-column,
+.widget.ticket--flex-column .bottom--flex-row-jsb,
+.widget.ticket--flex-column .rip {
+  background-color: white;
+}
+
+.widget.ticket--flex-column .top--flex-column {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.widget.ticket--flex-column .top--flex-column .deetz--flex-row-jsb {
+  padding-bottom: 10px !important;
+}
+
+.widget.ticket--flex-column .bottom--flex-row-jsb {
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.widget.ticket--flex-column .rip {
+  height: 20px;
+  margin: 0 10px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAACCAYAAAB7Xa1eAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuOWwzfk4AAAAaSURBVBhXY5g7f97/2XPn/AcCBmSMQ+I/AwB2eyNBlrqzUQAAAABJRU5ErkJggg==);
+  background-size: 4px 2px;
+  background-repeat: repeat-x;
+  background-position: center;
+  position: relative;
+  box-shadow: 0 1px 0 0 #fff, 0 -1px 0 0 #fff;
+}
+
+.widget.ticket--flex-column .rip:before,
+.widget.ticket--flex-column .rip:after {
+  content: "";
+  position: absolute;
+  width: 29px;
+  height: 29px;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  border: 5px solid transparent;
+  border-top-color: white;
+  border-right-color: white;
+  border-radius: 100%;
+  pointer-events: none;
+}
+
+.widget.ticket--flex-column .rip:before {
+  left: -10px;
+}
+
+.widget.ticket--flex-column .rip:after {
+  transform: translate(-50%, -50%) rotate(225deg);
+  right: -39px;
+}
+
+.-bold {
+  font-weight: bold;
+}
+.date,
+.time,
+.label,
+.cost,
+.bandname {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

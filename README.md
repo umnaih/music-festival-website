@@ -1,6 +1,36 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
+
+This project is a React application that showcases upcoming events with event details displayed in card format. The application also includes contact information in the footer section. It uses CSS for styling and HTML for structuring the components.
+
+### Features
+
+- **Home Section**: A visually appealing home section with a dark background.
+
+- **Upcoming Events**: Display of upcoming events with details in card format, including event dates, names, and "Learn More" buttons.
+
+- **About Us Page**: The "About Us" page explains the concept of ASL music interpretation and its importance in making music more accessible. It also provides details on how ASL interpreters specialize in music.
+
+- **Our Team**: The website introduces the ASL interpreters who will be providing interpretation services for specific dates. Each team member's profile includes their name, experience, and the dates they will be interpreting.
+
+- **Footer Section**: The footer section includes contact information for the organization, allowing users to find the physical address, contact number, and email address.
+
+- **Booking**: Users can click the "BOOK Your Ticket" button to navigate to the booking page and access the services.
+
+### Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository to your local machine.
+
+2. Navigate to the project directory.
+
+3. Run the following command to install the required dependencies:
+
+   ```bash
+   npm install
 
 ## Available Scripts
 
